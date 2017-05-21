@@ -1,6 +1,7 @@
 def div(num_1,num_2)
-	xyz = begin
+	if num_2 != 0 
 	num_1 / num_2	
-	rescue ZeroDivisionError
-	0
+    else
+   		 print "Zero division error"
+	end
 end
